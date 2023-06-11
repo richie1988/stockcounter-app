@@ -22,7 +22,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Mobile-portfolio-finish] <a name="about-project"></a>
+# 📖 [STOCK COUNTER APP] <a name="about-project"></a>
 
 This is the web application app that will help other developer or employer to locate you.
 Its Mobile vision app and can be accessed on the Mobile devices and Desktop
