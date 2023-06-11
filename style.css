@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ROBOTO", Tahoma, Verdana, sans-serif;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.main-container {
+  width: 390px;
+  height: auto;
+  text-align: center;
+  background-image: url("imagez/eduardo-soares-LtZg1g-vBT4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.main-container h1 {
+  display: block;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(63, 56, 58);
+  text-shadow: 4px 9px 16px rgb(84, 3, 39);
+}
+
+.main-container p {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(15, 1, 4);
+  text-shadow: 6px 12px 10px rgb(75, 3, 50);
+}
+
+.main-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(24, 22, 22);
+}
+
+button {
+  width: 100%;
+  margin: 10px;
+}
+
+#increment-Btn {
+  background-color: rgb(29, 37, 39);
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(28, 199, 222);
+  border-radius: 5px;
+}
+
+#save-Btn {
+  background-color: rgb(29, 37, 39);
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(189, 158, 170);
+  border-radius: 5px;
+}
+
+#clear-prev {
+  background-color: rgb(3, 48, 41);
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(176, 2, 5);
+  border-radius: 5px;
+}
+
+.note-padd {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.toolbar {
+  background-color: #ede5e9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar input[type="button"] {
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: 400;
+  color: cornflowerblue;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.toolbar h3 {
+  color: rgb(18, 18, 2);
+}
+
+.editor {
+  width: 100%;
+  height: 300px;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  gap: 12px;
+  list-style: none;
+}
+
+.social img {
+  width: 30px;
+  margin-left: 12px;
+}

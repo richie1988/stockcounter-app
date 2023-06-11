@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stock Counter App</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>STOCK COUNTER</h1>
+        <h2 id="count-element">0</h2>
+        <button id="increment-Btn" onclick="countBtn()">COUNT</button>
+        <button id="save-Btn" onclick="saveBtn()">SAVE</button>
+        <p id="prv-entry">PREVIOUS:</p>
+        <button id="clear-prev" onclick="clearPrev()">DELETE PREVIOUS</button>
+        <section class="note-padd">
+            <div class="toolbar">
+                <h3>Notes:</h3>
+                <input type="button" value="Save" onclick="saveNote()" />
+                <input type="button" value="Clear" onclick="clearNote()" />
+            </div>
+            <textarea class="editor" id="note"></textarea>
+        </section>
+        <ul class="social">
+            <li>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><img src="imagez/linkedin (1).png"></a>
+            </li>
+            <li>
+                <a href="https://github.com/" target="_blank"><img src="imagez/github (1).png"></a>
+            </li>
+            <l>
+                <a href="https://twitter.com/home" target="_blank"><img src="imagez/twitter (1).png"></a>
+                </li>
+                <l>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="imagez/facebook (1).png"></a>
+                    </li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
